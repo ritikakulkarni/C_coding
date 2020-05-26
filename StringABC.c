@@ -27,9 +27,10 @@ void charPermu(char *cht, int stno, int endno)
 int main()
 {
     char str[] = "abcd";
+     int n = strlen(str);
    printf("\n\n Pointer : Generate permutations of a given string :\n"); 
    printf("--------------------------------------------------------\n"); 
-    int n = strlen(str);
+   
     printf(" The permutations of the string are : \n");
     charPermu(str, 0, n-1);
      printf("\n\n");
