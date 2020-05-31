@@ -1,2 +1,2 @@
-# Java
+# C Coding
 Example
